@@ -1,4 +1,5 @@
 import React from "react";
+import profile from "../assets/img/profile.jpg";
 import tiket from "../assets/img/tiketlogo.png";
 import tiket2 from "../assets/img/tiketlogo2.png";
 import tiket3 from "../assets/img/tiketlogo3.png";
@@ -10,7 +11,7 @@ import Footer2Component from "./Footer2Component";
 const AboutComponent = () => {
   return (
     <div>
-      <NavbarComponent/>
+      <NavbarComponent />
       {/* CTA Section: Simple With Illustration */}
       <div className="bg-white dark:text-gray-100 dark:bg-gray-800">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 container xl:max-w-7xl mx-auto px-4 py-10 lg:px-8 lg:py-32">
@@ -30,8 +31,8 @@ const AboutComponent = () => {
                 </h3>
                 <p className="text-lg leading-relaxed font-nnormal text-gray-700 dark:text-gray-300">
                   Buy flight tickets, hotels, trains, car rental, also tickets
-                  for event and attraction immediately on TravelingYUK.com app and
-                  website.{" "}
+                  for event and attraction immediately on TravelingYUK.com app
+                  and website.{" "}
                   <Link
                     to="/"
                     className="ml-0.5 text-blue-600 decoration-2 hover:underline font-medium dark:focus:outline-none dark:focus:ring-1 dark:focus:ring-gray-600"
@@ -80,8 +81,8 @@ const AboutComponent = () => {
                 <p className="text-lg leading-relaxed font-nnormal text-gray-700 dark:text-gray-300">
                   Find discounts for your favorite flights and hotels to save
                   more for your upcoming vacation! Make your dream vacation come
-                  true with a special promo provided by TravelingYUK.com. There is no
-                  reason to delay your vacation!
+                  true with a special promo provided by TravelingYUK.com. There
+                  is no reason to delay your vacation!
                 </p>
                 <h3 className="text-xl mt-5 leading-relaxed font-bold text-gray-700 dark:text-gray-300">
                   Blibli Tiket Rewards Benefits.
@@ -127,17 +128,18 @@ const AboutComponent = () => {
                 <p className="text-lg leading-relaxed font-nnormal text-gray-700 dark:text-gray-300">
                   Do you want to find a cheap flight ticket? Now you can book
                   the cheap flight ticket to your favorite destination right on
-                  your fingertips. TravelingYUK.com is the pioneer of the online travel
-                  agent (OTA) in Indonesia which always gives the best
+                  your fingertips. TravelingYUK.com is the pioneer of the online
+                  travel agent (OTA) in Indonesia which always gives the best
                   innovation to make you easier to book flight ticket via
                   online. Search the cheap flight ticket to thousands of routes
                   for both domestic and international destinations over the
                   world. You could also compare the flight ticket prices at
-                  TravelingYUK.com. Besides that, buy online flight ticket through
-                  TravelingYUK.com will give you more advantages. If you have done a
-                  transaction at TravelingYUK.com, you can get a special reward named
-                  tiket Points. The point you earn can be redeemed with the
-                  exclusive gift or special discount from TravelingYUK.com
+                  TravelingYUK.com. Besides that, buy online flight ticket
+                  through TravelingYUK.com will give you more advantages. If you
+                  have done a transaction at TravelingYUK.com, you can get a
+                  special reward named tiket Points. The point you earn can be
+                  redeemed with the exclusive gift or special discount from
+                  TravelingYUK.com
                 </p>
               </div>
               {/* END Heading */}
@@ -213,8 +215,85 @@ const AboutComponent = () => {
       </div>
       {/* END CTA Section: Simple With Illustration */}
 
-      <FooterComponent/>
-      <Footer2Component/>
+      {/* Divider: With Heading */}
+      <h3 className="flex items-center mx-48 mt-10">
+        <span
+          aria-hidden="true"
+          className="grow bg-gray-200 rounded h-0.5 dark:bg-gray-700/75"
+        />
+        <span className="text-lg font-medium mx-3">
+          <h2 className="text-3xl font-black text-black mb-4 dark:text-white">
+            Meet our talented team
+          </h2>
+        </span>
+        <span
+          aria-hidden="true"
+          className="grow bg-gray-200 rounded h-0.5 dark:bg-gray-700/75"
+        />
+      </h3>
+      {/* END Divider: With Heading */}
+
+      {/* Team Section: Circle Photos with Title */}
+      <div className="bg-white dark:text-gray-100 dark:bg-gray-900">
+        <div className="space-y-16 container xl:max-w-7xl mx-auto mb-16 px-4 py-16 lg:px-8 lg:py-8">
+          {/* Heading */}
+          <div className="text-center">
+            <h3 className="text-xl leading-relaxed font-medium text-gray-700 lg:w-2/3 mx-auto dark:text-gray-300">
+              They are working nonstop behind the scenes to help you build
+              better products, web services and websites.
+            </h3>
+          </div>
+          {/* END Heading */}
+
+          {/* Team */}
+          <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8 md:gap-16 text-center">
+            <div>
+              <span className="inline-block rounded-full bg-white shadow-lg p-2 mb-5 dark:bg-gray-700/75 dark:shadow-gray-950">
+                {/* <img
+                  src="https://cdn.tailkit.com/media/placeholders/avatar-iFgRcqHznqg-320x320.jpg"
+                  alt="User Avatar"
+                  className="inline-block w-28 h-28 rounded-full"
+                /> */}
+              </span>
+              <h4 className="text-xl font-bold mb-0.5"> </h4>
+              <p className="font-medium text-gray-600 dark:text-gray-400">
+                {/* Product Design */}
+              </p>
+            </div>
+            <div>
+              <span className="inline-block rounded-full bg-white shadow-lg p-2 mb-5 dark:bg-gray-700/75 dark:shadow-gray-950">
+                <img
+                  src={profile}
+                  alt="User Avatar"
+                  className="inline-block w-28 h-28 rounded-full"
+                />
+              </span>
+              <h4 className="text-xl font-bold mb-0.5">Akbar Ananda A.</h4>
+              <p className="font-medium text-gray-600 dark:text-gray-400">
+                Frontend Developer
+              </p>
+            </div>
+            <div>
+              <span className="inline-block rounded-full bg-white shadow-lg p-2 mb-5 dark:bg-gray-700/75 dark:shadow-gray-950">
+                {/* <img
+                  src="https://cdn.tailkit.com/media/placeholders/avatar-mEZ3PoFGs_k-320x320.jpg"
+                  alt="User Avatar"
+                  className="inline-block w-28 h-28 rounded-full"
+                /> */}
+              </span>
+              <h4 className="text-xl font-bold mb-0.5"> </h4>
+              <p className="font-medium text-gray-600 dark:text-gray-400">
+                {/* Web Developer */}
+              </p>
+            </div>
+          </div>
+          {/* END Team */}
+        </div>
+      </div>
+      {/* END Team Section: Circle Photos with Title */}
+
+      <FooterComponent />
+      <Footer2Component />
     </div>
   );
 };

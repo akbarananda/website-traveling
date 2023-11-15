@@ -57,11 +57,11 @@ export default function TabsLgBasic() {
 
   return (
     <>
-      <h1 className="pt-8 text-xl font-semibold flex ml-5">
+      <h1 className="pt-8 text-xl font-semibold flex mx-48">
         Popular Destinations
       </h1>
       {/*<!-- Component: Basic lg sized tab --> */}
-      <section className="max-w-full" aria-multiselectable="false">
+      <section className="max-w-full mx-48" aria-multiselectable="false">
         <ul
           className="flex items-center border-b border-slate-200"
           role="tablist"

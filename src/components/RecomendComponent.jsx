@@ -12,14 +12,14 @@ import trans from "../assets/img/destinasi/trans.webp";
 const RecomendComponent = () => {
   return (
     <div>
-      <h1 className="pt-8 text-xl font-semibold text-black">
+      <h1 className="flex mx-48 pt-8 text-2xl font-semibold text-black">
         Recommendation for a fun outing
       </h1>
-      <p className="pb-5 text-black">
+      <p className="flex mx-48 text-lg pb-5 text-black">
         Explore iconic attraction around you! Great discounts await.
       </p>
 
-      <div className="mx-10">
+      <div className="mx-48">
         <div className="relative flex items-center justify-center w-full dark:text-gray-50">
           <div className="flex items-center justify-start w-full h-full gap-6 py-4 mx-auto overflow-auto lg:gap-8">
             <a href="#">

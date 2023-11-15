@@ -1,8 +1,10 @@
 import React from "react";
 import login from "../assets/img/login.jpg";
-import { Link } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
+
 
 const LoginComponent = () => {
+  const navigate = useNavigate();
   return (
     <div>
       <section className="bg-white">
@@ -194,7 +196,7 @@ const LoginComponent = () => {
                             </div>
                           </div>
                           {/* End Checkbox */}
-                          <button
+                          <button onClick={() => navigate("/hlogin")}
                             type="submit"
                             className="w-full py-3 px-4 inline-flex justify-center items-center gap-x-2 text-sm font-semibold rounded-lg border border-transparent bg-blue-600 text-white hover:bg-blue-700 disabled:opacity-50 disabled:pointer-events-none dark:focus:outline-none dark:focus:ring-1 dark:focus:ring-gray-600"
                           >

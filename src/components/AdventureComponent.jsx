@@ -12,52 +12,52 @@ import aquarium from "../assets/img/destinasi/aquarium.jpg";
 const AdventureComponent = () => {
   return (
     <div>
-      <h1 className="pt-8 text-xl font-semibold text-black">
+      <h1 className="flex mx-48 pt-8 text-2xl font-semibold text-black">
         Ideas for overseas adventure
       </h1>
-      <p className="pb-5 text-black">
+      <p className="flex mx-48 text-lg pb-5 text-black">
         Here are all kinds of cool activities in different countries that you
         must try!
       </p>
-      <div className="">
+      <div className="flex mx-48">
         <a href="">
-          <span className="inline-flex items-center gap-x-1.5 py-1.5 px-3 mr-2 rounded-lg text-xs font-medium bg-blue-100 text-blue-800 dark:bg-blue-800/30 dark:text-blue-500">
+          <span className="inline-flex items-center gap-x-1.5 py-1.5 px-3 mr-2 rounded-lg text-base font-medium bg-blue-100 text-blue-800 dark:bg-blue-800/30 dark:text-blue-500">
             Singapore
           </span>
         </a>
         <a href="">
-          <span className="inline-flex items-center gap-x-1.5 py-1.5 px-3 mr-2 rounded-lg text-xs font-medium bg-blue-100 text-blue-800 dark:bg-blue-800/30 dark:text-blue-500">
+          <span className="inline-flex items-center gap-x-1.5 py-1.5 px-3 mr-2 rounded-lg text-base font-medium bg-blue-100 text-blue-800 dark:bg-blue-800/30 dark:text-blue-500">
             Japan
           </span>
         </a>
         <a href="">
-          <span className="inline-flex items-center gap-x-1.5 py-1.5 px-3 mr-2 rounded-lg text-xs font-medium bg-blue-100 text-blue-800 dark:bg-blue-800/30 dark:text-blue-500">
+          <span className="inline-flex items-center gap-x-1.5 py-1.5 px-3 mr-2 rounded-lg text-base font-medium bg-blue-100 text-blue-800 dark:bg-blue-800/30 dark:text-blue-500">
             Malaysia
           </span>
         </a>
         <a href="">
-          <span className="inline-flex items-center gap-x-1.5 py-1.5 px-3 mr-2 rounded-lg text-xs font-medium bg-blue-100 text-blue-800 dark:bg-blue-800/30 dark:text-blue-500">
+          <span className="inline-flex items-center gap-x-1.5 py-1.5 px-3 mr-2 rounded-lg text-base font-medium bg-blue-100 text-blue-800 dark:bg-blue-800/30 dark:text-blue-500">
             Hong Kong
           </span>
         </a>
         <a href="">
-          <span className="inline-flex items-center gap-x-1.5 py-1.5 px-3 mr-2 rounded-lg text-xs font-medium bg-blue-100 text-blue-800 dark:bg-blue-800/30 dark:text-blue-500">
+          <span className="inline-flex items-center gap-x-1.5 py-1.5 px-3 mr-2 rounded-lg text-base font-medium bg-blue-100 text-blue-800 dark:bg-blue-800/30 dark:text-blue-500">
             South Korea
           </span>
         </a>
         <a href="">
-          <span className="inline-flex items-center gap-x-1.5 py-1.5 px-3 mr-2 rounded-lg text-xs font-medium bg-blue-100 text-blue-800 dark:bg-blue-800/30 dark:text-blue-500">
+          <span className="inline-flex items-center gap-x-1.5 py-1.5 px-3 mr-2 rounded-lg text-base font-medium bg-blue-100 text-blue-800 dark:bg-blue-800/30 dark:text-blue-500">
             Thailand
           </span>
         </a>
         <a href="">
-          <span className="inline-flex items-center gap-x-1.5 py-1.5 px-3 mr-2 rounded-lg text-xs font-medium bg-blue-100 text-blue-800 dark:bg-blue-800/30 dark:text-blue-500">
+          <span className="inline-flex items-center gap-x-1.5 py-1.5 px-3 mr-2 rounded-lg text-base font-medium bg-blue-100 text-blue-800 dark:bg-blue-800/30 dark:text-blue-500">
             Australia
           </span>
         </a>
       </div>
 
-      <div className="mx-10">
+      <div className="mx-48">
         <div className="relative flex items-center justify-center w-full dark:text-gray-50">
           <div className="flex items-center justify-start w-full h-full gap-6 py-4 mx-auto overflow-auto lg:gap-8">
             <a href="#">

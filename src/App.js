@@ -6,6 +6,7 @@ import RegisterPage from './pages/RegisterPage';
 import ForgotPage from './pages/ForgotPage';
 import AboutPage from './pages/AboutPage';
 import SupportPage from './pages/SupportPage';
+import HomePageLogin from './pages/HomePageLogin';
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
           <Route path="/forgot" element={<ForgotPage/>}/>
           <Route path="/about" element={<AboutPage/>}/>
           <Route path="/support" element={<SupportPage/>}/>
+          <Route path="/hlogin" element={<HomePageLogin/>}/>
         </Routes>
       </Router>
       

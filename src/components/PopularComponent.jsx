@@ -10,49 +10,49 @@ import hotel4 from "../assets/img/destinasi/hotel4.webp";
 const PopularComponent = () => {
   return (
     <div>
-      <h1 className="pt-8 text-xl font-semibold text-black">
+      <h1 className="flex mx-48 pt-8 text-2xl font-semibold text-black">
         Check what’s popular in TravelingYUK! 🏆🤩
       </h1>
       <p className="pb-5 text-black"></p>
-      <div className="">
+      <div className="flex mx-48">
         <a href="">
-          <span className="inline-flex items-center gap-x-1.5 py-1.5 px-3 mr-2 rounded-lg text-xs font-medium bg-blue-100 text-blue-800 dark:bg-blue-800/30 dark:text-blue-500">
+          <span className="inline-flex items-center gap-x-1.5 py-1.5 px-3 mr-2 rounded-lg text-base font-medium bg-blue-100 text-blue-800 dark:bg-blue-800/30 dark:text-blue-500">
             Attraction
           </span>
         </a>
         <a href="">
-          <span className="inline-flex items-center gap-x-1.5 py-1.5 px-3 mr-2 rounded-lg text-xs font-medium bg-blue-100 text-blue-800 dark:bg-blue-800/30 dark:text-blue-500">
+          <span className="inline-flex items-center gap-x-1.5 py-1.5 px-3 mr-2 rounded-lg text-base font-medium bg-blue-100 text-blue-800 dark:bg-blue-800/30 dark:text-blue-500">
             Hotels
           </span>
         </a>
         <a href="">
-          <span className="inline-flex items-center gap-x-1.5 py-1.5 px-3 mr-2 rounded-lg text-xs font-medium bg-blue-100 text-blue-800 dark:bg-blue-800/30 dark:text-blue-500">
+          <span className="inline-flex items-center gap-x-1.5 py-1.5 px-3 mr-2 rounded-lg text-base font-medium bg-blue-100 text-blue-800 dark:bg-blue-800/30 dark:text-blue-500">
             Viila & Apart.
           </span>
         </a>
         <a href="">
-          <span className="inline-flex items-center gap-x-1.5 py-1.5 px-3 mr-2 rounded-lg text-xs font-medium bg-blue-100 text-blue-800 dark:bg-blue-800/30 dark:text-blue-500">
+          <span className="inline-flex items-center gap-x-1.5 py-1.5 px-3 mr-2 rounded-lg text-base font-medium bg-blue-100 text-blue-800 dark:bg-blue-800/30 dark:text-blue-500">
             Events
           </span>
         </a>
         <a href="">
-          <span className="inline-flex items-center gap-x-1.5 py-1.5 px-3 mr-2 rounded-lg text-xs font-medium bg-blue-100 text-blue-800 dark:bg-blue-800/30 dark:text-blue-500">
+          <span className="inline-flex items-center gap-x-1.5 py-1.5 px-3 mr-2 rounded-lg text-base font-medium bg-blue-100 text-blue-800 dark:bg-blue-800/30 dark:text-blue-500">
             Playgrounds
           </span>
         </a>
         <a href="">
-          <span className="inline-flex items-center gap-x-1.5 py-1.5 px-3 mr-2 rounded-lg text-xs font-medium bg-blue-100 text-blue-800 dark:bg-blue-800/30 dark:text-blue-500">
+          <span className="inline-flex items-center gap-x-1.5 py-1.5 px-3 mr-2 rounded-lg text-base font-medium bg-blue-100 text-blue-800 dark:bg-blue-800/30 dark:text-blue-500">
             Tours
           </span>
         </a>
         <a href="">
-          <span className="inline-flex items-center gap-x-1.5 py-1.5 px-3 mr-2 rounded-lg text-xs font-medium bg-blue-100 text-blue-800 dark:bg-blue-800/30 dark:text-blue-500">
+          <span className="inline-flex items-center gap-x-1.5 py-1.5 px-3 mr-2 rounded-lg text-base font-medium bg-blue-100 text-blue-800 dark:bg-blue-800/30 dark:text-blue-500">
             Beauty & Wellness
           </span>
         </a>
       </div>
 
-      <div className="mx-10">
+      <div className="mx-48">
         <div className="relative flex items-center justify-center w-full dark:text-gray-50">
           <div className="flex items-center justify-start w-full h-full gap-6 py-4 mx-auto overflow-auto lg:gap-8">
             <a href="#">
