@@ -63,7 +63,7 @@ const ForgotComponent = () => {
                           <div>
                             <label
                               htmlFor="email"
-                              className="block text-sm mb-2 dark:text-white"
+                              className="flex block text-sm mb-2 dark:text-white"
                             >
                               Email address
                             </label>
